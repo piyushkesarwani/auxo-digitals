@@ -1,0 +1,81 @@
+.section {
+    padding: 5% 10% !important;
+  }
+  
+  
+  
+  /* This os the image attribute */
+  .heroImage { 
+    /* max-width: 100% !important; */
+    width: 100% !important;
+    height: 100% !important;
+    object-fit: cover !important;
+  }
+  
+  .heroText {
+    width: 50% !important;
+    height: auto !important;
+    margin-left: 0px !important;
+  }
+  
+  .heroImageDiv {
+    width: 50% !important;
+    height: auto !important;
+  }
+  
+  .primaryText {
+    color: navy !important;
+    font-weight: 600 !important;
+    font-family: monospace !important;
+  }
+  
+  .secondaryText {
+    font-weight: 500 !important;
+    color: rgb(88, 88, 88) !important;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif !important ;
+  }
+  
+  .carouselImage {
+    width: 120px !important; 
+    height: 120px !important;
+    margin: 20px 120px !important;
+  }
+  
+  .carouselMainContainer {
+    background-color: none !important;
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.5) !important;
+    padding: 20px !important;
+    color: black !important;
+  }
+  
+  .card {
+    cursor: pointer;
+    transition: transform 200ms ease-in-out;
+  }
+  
+  .card:hover {
+    transform: scale(1.03);
+  }
+  
+  .whoareweBackground {
+    background-color: #f6f9ff;
+    padding: 10px 20px !important;
+    /* height: 300px !important;
+    width: auto !important; */
+  }
+  
+  .whoareweBackground h4 {
+    color: navy;
+  }
+  
+  .testimonialImage {
+    width: 40px !important;
+  }
+  
+  .socialIcons img {
+    width: 30px !important;
+    height: 30px !important;
+    opacity: 0.8 !important;
+    cursor: pointer;
+    margin: 10px 10px !important;
+  }

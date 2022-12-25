@@ -1,0 +1,66 @@
+.imageDiv img {
+    width: 100% !important;
+    height: 100% !important;
+    object-fit: cover !important;
+}
+
+.imageDiv {
+    width: 50% !important;
+}
+
+.textDiv {
+    width: 50% !important;
+}
+
+.parentDiv {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+@media only screen and (max-width: 1010px){
+    .textDiv {
+        width: 40% !important;
+    }
+    .imageDiv {
+        width: 60% !important;
+    }
+    .textDiv h2 {
+        font-size: 19px !important;
+    }
+    .textDiv p {
+        font-size: 15px !important;
+    }
+}
+
+@media only screen and (max-width: 980px){
+    .textDiv {
+        width: 70% !important;
+    }
+    .imageDiv {
+        width: 40% !important;
+    }
+    .textDiv h2 {
+        font-size: 19px !important;
+    }
+    .textDiv p {
+        font-size: 15px !important;
+    }
+}
+
+@media only screen and (max-width: 770px){
+    .parentDiv {
+        display: flex !important;
+        flex-direction: column !important;
+        justify-content: center !important;
+        align-items: center !important;
+        gap: 20px !important;
+    }
+    .textDiv {
+        width: 90% !important;
+    }
+    .imageDiv {
+        width: 70% !important;
+    }
+}
